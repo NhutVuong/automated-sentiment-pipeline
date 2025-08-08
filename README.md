@@ -28,7 +28,7 @@ Integrating the AI model enables:
 ### 2. 📥 Load Data from Google Sheets
 - **Node:** `Google Sheets - Read Sheet`
 - Reads 12,000 rows of social media data from a connected Google Sheet via OAuth2.
-- 🔗 [View sample data in Google Sheets](https://docs.google.com/spreadsheets/d/11A1bMHU0LZTiXiksdAuYQiA0eLVqR4pUzlVyDnYQ3K0/edit?usp=sharing)
+- 🔗 [View raw input data in Google Sheets](https://docs.google.com/spreadsheets/d/11A1bMHU0LZTiXiksdAuYQiA0eLVqR4pUzlVyDnYQ3K0/edit?usp=sharing)
 
 > Make sure the authenticated Google account in n8n has access to this sheet.
 
