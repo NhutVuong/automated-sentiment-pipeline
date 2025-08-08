@@ -35,8 +35,7 @@ Integrating the AI model enables:
 |------|-------------|
 | `Loop Over Items` | Splits the input into batches of 200 rows. Sends each batch via `Loop`; triggers `Done` after all batches are processed. |
 | `Wait` | Pauses for 5 seconds between batches to avoid API rate limiting. |
-| `HTTP Request` | Sends each batch to a local API (`http://host.docker.internal`) using a POST request.  
-This API returns emotion predictions for the text content. |
+| `HTTP Request` | Sends each batch to a local API (`http://host.docker.internal`) using a POST request.This API returns emotion predictions for the text content. |
 | `Merge` | Merges the original batch with the API's prediction results. |
 | `Replace Me` | Final node to handle post-processing or saving results. |
 
